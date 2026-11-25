@@ -20,12 +20,13 @@ time. Defensive by design, working for the good side. 👻
 
 ## 📦 This repository
 
-`portspectre-dist` is PORTSPECTRE's **distribution channel** — compiled release
-binaries only, **no source code**. It also serves the update feed read by the
-in-app **SOFTWARE UPDATE** check.
+PORTSPECTRE is **no longer distributed publicly**. New builds are passed on
+**hand to hand** by **DATASTORM** — this repository no longer holds any downloads.
 
-- **Download the latest build:** [`releases/latest`](https://github.com/Shadowan69/portspectre-dist/releases/latest/download/PORTSPECTRE.exe)
-- The `.exe` is unsigned, so Windows SmartScreen may warn on first run — choose **More info → Run anyway**.
+- **Want a copy?** Please ask DATASTORM.
+- **Got a copy?** Check its SHA-256 before the first start: the in-app
+  **SOFTWARE UPDATE** check leads to the page with the current version and the
+  checksum of every build. A copy that does not match must not be run.
 
 > If you arrived here looking for an unrelated, similarly-named port *scanning*
 > tool, this isn't it. PORTSPECTRE is defensive software that monitors your own host.
